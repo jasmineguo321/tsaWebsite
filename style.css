@@ -1,0 +1,14 @@
+.topBannerIndex{
+    background-color: rgb(250, 228, 102);
+    padding: 60px;
+    text-align: center;
+    color: black;
+    font-size: 135px;
+    font-weight: 500;
+    font-family: 'DM Mono', monospace;
+    max-height: 389px;
+    line-height:1.25cap;
+    letter-spacing: -4px;
+    word-spacing: -45px;
+    margin-bottom: 0px;
+}
