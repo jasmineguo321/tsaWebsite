@@ -31,6 +31,70 @@
     font-family: 'Montserrat', sans-serif;;
 }
 
+.verticalNav{
+    position: absolute;
+    height: 310px;
+    max-width: 60px;
+    left: 20px;
+    top:237px;
+    margin: auto 0;
+    background-color: #000;
+    padding-top:20px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+}
+
+.verticalNav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    height: 100%
+}
+
+.verticalNav ul li {
+    width: 100%;
+}
+
+.verticalNav ul li a{
+    text-decoration: none;
+    color: #fce372;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.verticalNav ul li a .material-symbols-outlined {
+    width: 20px;
+    height: 45px;
+}
+
+.verticalNav ul li a .text {
+    position: absolute;
+    background-color: #000;
+    border-radius: 5px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s all ease;
+    max-height:30px;
+}
+
+.verticalNav ul li a:hover {
+    color: #fff;
+}
+
+.verticalNav ul li a:hover .text {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 30px;
+}
+
 .topBannerIndex{
     background-image: url('img/bgimageYellow.png');
     background-size: cover;
@@ -97,3 +161,4 @@
     object-fit:cover;
     object-position:bottom;
   }
+
