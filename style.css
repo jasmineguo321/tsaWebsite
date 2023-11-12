@@ -2,13 +2,24 @@
     margin:0px;
 }
 
+.navbar-nav{
+    margin-left: 270px;
+}
+
+.navbar-nav img{
+    height: 70px;
+    width: 150px;
+    margin-right: 40px;
+}
+
 .nb-background-color {
     /*navbar background color*/
     background-color: #fce372;
-    opacity: 100%
+    opacity: 100%;
 }
 
 .nbMenuItem {
+    margin-right: 50px;
     font-weight: 600;
     font-size: 17px;
     margin-top: 31px;
@@ -23,25 +34,23 @@
     .nav ul li {
         display: inline-flex;
         text-align: center;
-
     }
 }
 
 .nav-item { /* navbar fonts*/
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .verticalNav{
-    position: absolute;
-    height: 310px;
-    max-width: 60px;
-    left: 20px;
-    top:237px;
+    position: fixed;
+    height: 300px;
+    max-width: 70px;
+    top:30%;
     margin: auto 0;
     background-color: #000;
-    padding-top:20px;
+    padding-top:35px;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 2px;
     display: flex;
 }
 
@@ -55,7 +64,7 @@
 }
 
 .verticalNav ul li {
-    width: 100%;
+    width: 260%;
 }
 
 .verticalNav ul li a{
@@ -92,7 +101,7 @@
 .verticalNav ul li a:hover .text {
     opacity: 1;
     visibility: visible;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .topBannerIndex{
@@ -123,9 +132,8 @@
 
 .marquee {
     width: 100vw;
-    height: 63vh;
+    height: 68vh;
     color: #000;
-    overflow:hidden;
 }
 
 .marquee-content{
@@ -162,3 +170,11 @@
     object-position:bottom;
   }
 
+  .marquee-content .card{
+    background-color: transparent;
+    border: transparent;
+  }
+  .marquee-content .card-text{
+    font-size: 15px;
+  }
+  
